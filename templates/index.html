@@ -11,6 +11,28 @@
 <body>
     <h1>Movies List</h1>
     <div class="" id="movies"></div>
+
+    <div class="form-container">
+        <form class="forms" id="create-movie-form">
+            <div class="inputs">
+                <input type="text" id="create-title" placeholder="Title" required>
+                <input type="text" id="create-isbn" placeholder="ISBN" required>
+                <input type="text" id="create-firstname" placeholder="First Name" required>
+                <input type="text" id="create-lastname" placeholder="Last Name" required>
+            </div>
+            <button type="submit">Add Movie</button>
+        </form>
+        <form class="forms" id="update-movie-form">
+            <div class="inputs">
+                <input type="text" id="update-id" placeholder="ID" required>
+                <input type="text" id="update-title" placeholder="Title" required>
+                <input type="text" id="update-isbn" placeholder="ISBN" required>
+                <input type="text" id="update-firstname" placeholder="First Name" required>
+                <input type="text" id="update-lastname" placeholder="Last Name" required>
+            </div>
+            <button type="submit">Update Movie</button>
+        </form>
+    </div>
     <script src="/static/scripts.js"></script>
 </body>
 

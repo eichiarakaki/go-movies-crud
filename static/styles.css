@@ -7,6 +7,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
+button {
+    color: #000000;
+}
 
 #movies {
     background-color: #202020;
@@ -24,4 +27,51 @@ body {
     background-color: #1d1d1d;
     margin: 5px 10px;
     border-radius: 20px;
+}
+
+.form-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+
+.forms {
+    display: flex;
+    padding: 10px 10px;
+    margin: 0 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #383838;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    all: unset;
+
+    background-color: #202020;
+    border: 1px solid #222;
+    margin: 5px 0;
+    height: 25px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.forms button {
+    height: 50px;
+    background-color: rgb(87, 122, 34);
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+}
+
+.forms button:hover {
+    background-color: rgb(133, 190, 47);
 }
